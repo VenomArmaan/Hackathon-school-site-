@@ -1,0 +1,158 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.back{
+background-image: url("/sportsimage/backbanner1.jpg");
+background-size: cover;
+background-blend-mode: multiply;
+padding-bottom: 50px;
+
+}
+.headmain{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 0px;
+   transition-duration: 0.5s;
+}
+.headmain:hover{
+    background-color: rgb(255, 255, 255);
+    .title{
+        color: black;
+    }
+    
+}
+.title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    padding: 20px;
+    padding-right: 180px;
+    color: rgb(255, 255, 255);
+}
+.ach{
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
+    background-color: rgb(50, 69, 177);
+    border: 0px;
+}
+.ach:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+.infra:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+.infra{
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: rgb(39, 160, 69);
+    border: 0px;
+}
+.frline{
+    padding-top: 200px;
+    padding-left: 50px;
+    color: rgb(255, 255, 255);
+}
+.aut{
+    font-size: 18px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    color: rgb(255, 255, 255);
+}
+.exp{
+    padding-top: 100px;
+}
+.ours{
+    padding: 20px;
+    font-size: 32px;
+    padding-top: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+.sportp{
+    font-size: 16px;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    color: rgb(141, 87, 48);
+}
+.v1{
+    display: flex;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    text-align: center;
+}
+.v{
+    height: 250px;
+    width: 300px;
+    border-radius: 10px; 
+}
+.v:hover{
+    transition-duration: 0.5s;
+    transform: scale(1.1);
+}
+.v2{
+    display: flex;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    text-align: center;
+}
+.v3{
+    display: flex;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    text-align: center;
+}
+.newach{
+    padding-top: 80px;
+    background-color: rgb(247, 191, 142);
+}
+.achie{
+    padding-top: 30px;
+    font-size: 16px;
+    padding-left: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.a1{
+    color: rgb(243, 242, 240);
+    padding: 20px;
+    padding-top :10px;
+}
+.info{
+    text-align: center;
+    font-size: 32;
+    padding-bottom: 50px;
+    padding-top: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.info1{
+    display: flex;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 1px;
+    padding-left: 150px;
+    padding-top: 50px;
+
+}
+.info3{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+.info2{
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+}
+
