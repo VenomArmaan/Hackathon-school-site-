@@ -3,7 +3,7 @@ body{
     padding: 0px;
 }
 .back{
-background-image: url("/sportsimage/backbanner1.jpg");
+background-image: url("Image/backbanner1.jpg");
 background-size: cover;
 background-blend-mode: multiply;
 padding-bottom: 50px;
